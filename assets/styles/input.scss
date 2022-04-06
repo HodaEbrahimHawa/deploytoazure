@@ -1,0 +1,182 @@
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 10px;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    min-height: 67px;
+  }
+
+  select {
+    background-image: url(/assets/images/dropdownField.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 20px) !important;
+  }
+}
+
+.text-input,
+select {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #BDBDBD;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 0 17px;
+  outline: none;
+  font-size: 14px;
+  appearance: none;
+
+  &::placeholder {
+    color: #A0A0A0;
+  }
+}
+
+.input-hint {
+  color: #ff0000;
+  font-size: 11px;
+}
+
+.form-group-radio-button {
+  .radio-label {
+    font-size: 14px;
+    color: #A0A0A0;
+  }
+
+  .form-group-radio {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+
+    span {
+      margin-left: 11px;
+      color: var(--primary-gray);
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .radio-container {
+      height: 24px;
+      margin-right: 29px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.main-button {
+  min-width: 116px;
+  height: 44px;
+  color: #ffffff;
+  background-color: var(--main-color);
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 26px;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.7;
+  }
+
+  &.with-border {
+    background-color: #ffffff;
+    border: 1px solid var(--main-color);
+    color: var(--main-color)
+  }
+}
+
+.input-container {
+  position: relative;
+  &.with-icon{
+      input{
+        padding-right: 50px;
+      }
+  }
+
+  img {
+    position: absolute;
+    top: 24px;
+    transform: translate(0px, -50%);
+    right: 20px;
+  }
+
+  label {
+    position: absolute;
+    left: 17px;
+    color: #A0A0A0;
+    top: 17px;
+    font-size: 14px;
+    pointer-events: none;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    &.focus{
+        color: #969595;
+        top: -6px;
+        font-size: 11px;
+        background: #ffffff;
+        padding: 0 3px;
+    }
+  }
+
+  input:focus~label {
+    color: #969595;
+    top: -6px;
+    font-size: 11px;
+    background: #ffffff;
+    padding: 0 3px;
+  }
+  select:focus~label {
+    color: #969595;
+    top: -6px;
+    font-size: 11px;
+    background: #ffffff;
+    padding: 0 3px;
+  }
+
+}
+
+input[type=radio] {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+}
+
+input[type=radio]:checked {
+  background: var(--main-color);
+  background-size: 9px 9px;
+  position: relative;
+  border: 0;
+  width: 15px;
+  height: 15px;
+
+  &::after {
+    content: "";
+    background-image: url('assets/images/check-mark-svgrepo-com.svg');
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+input[type=radio]:focus {
+  outline-color: transparent;
+}
+
+
+@media(max-width: 500px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

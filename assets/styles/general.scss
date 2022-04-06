@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+  }
+  
+section {
+    display: flex;
+  }
+  .right-body {
+    padding: 20px 37px;
+    width: 100%;
+  }
+  @media(max-width: 480px) {
+      section{
+          flex-direction: column;
+      }
+      .right-body{
+        // padding: 15px;
+      }
+  }

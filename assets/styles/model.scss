@@ -1,0 +1,31 @@
+label.required:after { content: ' *';color:inherit; }
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.custom-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  .custom-modal-body{
+    max-width: 800px;
+    width: 100%;
+    background: #f9fafb;
+  }
+  h5{
+    color: var(--primary-gray);
+    font-size: 28px;
+    line-height: 34px;
+    max-width: 303px;
+    margin-bottom: 16px;
+  }
+}
+@media(max-width: 500px) {
+    .custom-modal{
+        display: block;
+        .custom-modal-body{
+            max-width: 300px;
+        }
+    }
+}

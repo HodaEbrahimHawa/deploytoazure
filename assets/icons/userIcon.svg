@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user</title>
+    <defs>
+        <path d="M19.5,0 C26.2310039,0 31.6875,5.45649609 31.6875,12.1875 C31.6875,18.9185039 26.2310039,24.375 19.5,24.375 C12.7689961,24.375 7.3125,18.9185039 7.3125,12.1875 C7.3125,5.45649609 12.7689961,0 19.5,0 Z M33.4610098,25.4277715 L28.0289648,24.0697793 C22.3219395,28.1746816 15.4043906,27.2586387 10.9710352,24.0697793 L5.53899023,25.4277715 C2.28370898,26.2415918 0,29.1664395 0,32.5219629 L0,35.34375 C0,37.3630664 1.63693359,39 3.65625,39 L35.34375,39 C37.3630664,39 39,37.3630664 39,35.34375 L39,32.5219629 C39,29.1664395 36.716291,26.2415918 33.4610098,25.4277715 L33.4610098,25.4277715 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-page" transform="translate(-1378.000000, -28.000000)">
+            <g id="Group-5" transform="translate(1378.000000, 22.000000)">
+                <g id="Icons/Solid/user" transform="translate(0.000000, 6.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="user" fill="#E94E1B" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

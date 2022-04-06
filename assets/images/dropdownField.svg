@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <defs>
+        <path d="M8,11.414 L3.293,6.707 L4.707,5.293 L8,8.586 L11.293,5.293 L12.707,6.707 L8,11.414 Z M8,0 C3.582,0 0,3.581 0,8 C0,12.418 3.582,16 8,16 C12.418,16 16,12.418 16,8 C16,3.581 12.418,0 8,0 L8,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Add-new-User" transform="translate(-791.000000, -499.000000)">
+            <g id="Group-24" transform="translate(290.000000, 183.000000)">
+                <g id="Group-22" transform="translate(46.000000, 41.000000)">
+                    <g id="Group-15" transform="translate(0.000000, 259.000000)">
+                        <g id="Polaris-icon/Minor/Mono/Circle-Chevron-Down-Copy-3" transform="translate(455.000000, 16.000100)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Icon" fill="#4B5353" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

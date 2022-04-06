@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="840px" height="1024px" viewBox="0 0 840 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login" transform="translate(-830.000000, -0.000000)">
+            <g id="Group-7" transform="translate(830.500000, 0.000000)">
+                <path d="M446.5,0 L153.107236,236.388464 C111.396439,269.995124 103.573552,330.500017 135.365376,373.610086 L615,1024 L615,1024 L839.5,1024 L839.5,0 L446.5,0 Z" id="Path-2" fill="#F29476"></path>
+                <path d="M576,0 L72.6255827,418.604767 C31.8631906,452.502659 24.6391469,512.320931 56.1598625,554.948201 L403,1024 L403,1024 L839.5,1024 L839.5,0 L576,0 Z" id="Path" fill="#66C6C2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
